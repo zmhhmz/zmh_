@@ -4,22 +4,16 @@ filename ='CAVEmainRNN.py'
 outname = 'CAVEmainRNN_temp.py'
 
 keywords={
-'F': 'tf.app.flags.DEFINE_integer(\'FixnetLTest\','
+'F': 'tf.app.flags.DEFINE_integer(\'FixnetLTest\',',
 'T': 'tf.app.flags.DEFINE_string(\'test_dir\','
 }
 
 Experiments =[{
-    'F':4,
-    'T':'temp/train_RNNv2_10_3_4_20epo/'
-},{
-    'F':5,
-    'T':'temp/train_RNNv2_10_3_5_20epo/'
-},{
     'F':6,
-    'T':'temp/train_RNNv2_10_3_6_20epo/'
+    'T':'TestResult/test_RNNv2_10_3_6_20epo/'
 },{
     'F':7,
-    'T':'temp/train_RNNv2_10_3_7_20epo/'
+    'T':'TestResult/test_RNNv2_10_3_7_20epo/'
 }]
 
 def Process(filename,outname,key_reps):
